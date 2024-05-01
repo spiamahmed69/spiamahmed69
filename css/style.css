@@ -1,0 +1,314 @@
+*{
+
+margin: 0;
+
+padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/********Header section code stART here*****/
+/*************/
+header{
+
+width: 100%;
+padding: 50px 0;
+}
+.container{
+
+    width: 1140px;
+    margin: auto;
+}
+.nav-bar{
+float: left;
+display: flow-root;
+    width: 100%;
+}
+.logo{
+    display: flow-root;
+    width: 25%;
+float: left;
+}
+.menu{
+    display: flow-root;
+float:right;
+    width: 75%;
+}
+.menu{
+    display: flow-root;
+    width: 75%;
+    float: left;
+    text-align: center;
+}
+.menu ul li{
+display: inline-block;
+    list-style: none;
+    margin-left: 60px; 
+} 
+a{
+
+    text-decoration: none;
+}
+.menu ul li a{
+
+font-family: 'Playfair Display', serif;
+color: #c0c0c0;
+text-transform: uppercase;
+font-weight: 400;
+
+}
+.menu ul li a:hover{
+
+
+color: black;
+
+}
+/*****single page start here********/
+
+.main-post{
+
+width: 100%;
+
+}
+.details{
+padding: 70px;
+    
+}
+.details h4
+
+
+{
+
+    font-family:'Ubuntu', sans-serif ;
+    text-transform: uppercase;
+    color: #c0c0c0;
+}
+.details h1{
+
+    font-family: 'Playfair Display', serif;
+    margin: 20px 0;
+    color: #b0b0b0;
+
+}
+.details p{
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+margin-bottom: 20px;
+color: #b0b0b0;
+
+}
+.details span{
+
+
+color: #c0c0c0;
+font-family:'Playfair Display', serif ;
+
+font-weight: 400;
+}
+/*****all post section start from hetre********/
+
+.posts{
+
+    width: 100%;
+    display: flow-root;}
+.gallery{
+
+width: 100%;
+display: flow-root;
+float: left;
+padding: 70px;
+
+}
+.left{
+    display: flow-root;
+    
+    width: 46%;
+    float: left;
+}
+.right{
+    display: flow-root;
+    width:46%;
+    float:right ;
+}
+/*****
+.extra{
+
+    padding-right: 20px;
+}
+.extra-2{
+
+    padding-right: 20px;
+}*****/
+
+.left h4, .right h4
+
+
+{
+margin-top: 20px;
+font-weight: 300;
+    font-family:'Ubuntu', sans-serif ;
+    text-transform: uppercase;
+    color: #c0c0c0;
+}
+.left h1, .right h1{
+
+    font-family: 'Playfair Display', serif;
+    margin: 20px 0;
+    color: #b0b0b0;
+
+}
+.left p, .right p{
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+margin-bottom: 20px;
+color: #b0b0b0;
+
+}
+/***** all post section end from here********/
+
+/****** newsletter start here*******/
+
+.Newsletter{
+
+background-color: #f5f5f5;
+    width: 100%;
+    padding: 70px 0;
+    display: flow-root;
+}
+.subscribe h1{
+margin:20px 0 ;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+
+}
+.subscribe{
+
+text-align: center;
+
+}
+.subscribe input{
+
+    padding: 15px 0;
+    width: 30%;
+    background-color: transparent;
+    border: none;
+      border-bottom-width: medium;
+      border-bottom-style: none;
+      border-bottom-color: currentcolor;
+    border-bottom: 1px solid black;
+  }
+
+  .subscribe input::placeholder{
+color:black;
+font-family: 'Playfair Display', serif;
+    font-weight: 400;
+  }
+  .subscribe input:focus{
+
+    outline:0px;
+    border-bottom-color: red ;
+  }
+/****** newsletter end here*******/
+.button{
+    padding: 1px 0 100px 0;
+text-align: center;
+background-color: white;
+
+}
+.input-1{
+
+    padding: 20px 60px;
+  border: none;
+  border: 1px solid black;
+  background-color: white;
+  
+  font-family: 'Playfair Display', serif;
+  margin: 20px 0;
+  color: #b0b0b0;
+   
+ 
+
+}
+
+.flooter-2{
+    display: flow-root;
+    width: 100%;
+
+   
+    padding: 10px 0;
+    background-color: #f5f5f5;
+    float: left;
+}
+.left-1{
+
+float: left;
+    width: 30% ;
+    display: flow-root;
+}
+.right-2{
+
+    float: right;
+  width: 40%;
+  text-align: center;
+        display: flow-root;
+    }
+    .social-icone{
+
+
+        padding: 6px 0;
+  
+        
+  float: right;
+    }
+    .social-icone ul{
+
+        margin: 30px 4px;
+    }
+    .social-icone ul li{
+
+
+        list-style: none;
+        
+        display: inline-block;
+        margin: 0 15px;
+        
+        }
+        .social-icone ul li a i{
+        color:#f5f5f5;
+        background-color: #b0b0b0;
+        width: 40px;
+        
+        
+        
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        border: 2px solid black;
+        border-radius: 100%;
+        transition: o.5s ease-in-out;
+        }
+        
+        .social-icone ul li a i:hover{
+        
+        border: 2px solid chartreuse
+        ;
+    
+        transition: o.1s ;
+
+        background-color: transparent;
+        color: tomato;}
+
+       
+        .left-1 p{
+
+            margin: 40px;
+  font-size: 20px;
+        }
+        .right-2 p{
+
+            margin: 40px;
+  font-size: 20px;
+}
+        
